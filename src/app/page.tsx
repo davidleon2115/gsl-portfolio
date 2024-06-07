@@ -1,6 +1,5 @@
+import { Header } from "@/components/Header";
 import { Metadata } from "next";
-import Head from "next/head";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Servicios Profesionales de Topografía - Gestión Catastral, Diseño de Vías, Fotogrametría y LiDAR",
@@ -11,7 +10,22 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
-      
+
+      {/* Header */}
+      <Header/>
+
+      {/* Hero */}
+
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Projets */}
+
+      {/* Contact ME */}
+
     </div>
   );
 }
