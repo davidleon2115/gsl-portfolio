@@ -6,7 +6,7 @@ type Props = {};
 
 export function Header({}: Props) {
   return (
-    <header className="sticky top-0  flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:item-center">
+    <header className="sticky top-0  flex items-start justify-between p-5  lg:max-w-7xl mx-auto z-20 xl:item-center">
       <motion.div
         initial={{
           x: -500,
@@ -67,7 +67,7 @@ export function Header({}: Props) {
           fgColor="orange"
           bgColor="#FFEC0026"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-yellow-400">
+        <p className="uppercase hidden md:inline-flex text-sm text-yellow-600 dark:text-yellow-400">
           Get In Touch
         </p>
       </motion.div>
