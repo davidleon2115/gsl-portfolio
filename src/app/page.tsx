@@ -1,3 +1,4 @@
+import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Metadata } from "next";
@@ -14,16 +15,19 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="h-screen snap-y snap-mandatory overflow-scroll z-0">
+    <div className=" z-0">
       {/* Header */}
       <Header />
 
       {/* Hero */}
-      <section className="snap-center" id="hero">
+      <section id="hero">
         <Hero />
       </section>
 
       {/* About */}
+      <section id="about">
+        <About />
+      </section>
 
       {/* Experience */}
 
